@@ -11,11 +11,13 @@
     <EditText
         android:id="@+id/et_name"
         android:layout_width="wrap_content"
+        android:text="Nik"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:hint="Name" />
 
     <EditText
+        android:text="Nikhil"
         android:id="@+id/et_nick_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,6 +26,7 @@
 
 
     <EditText
+        android:text="1992"
         android:id="@+id/et_birth_year"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,6 +36,7 @@
         />
 
     <EditText
+        android:text="2018"
         android:id="@+id/et_death"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,9 +49,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:text="bangalore"
         android:hint="location" />
 
     <EditText
+        android:text="2"
         android:id="@+id/et_generation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
