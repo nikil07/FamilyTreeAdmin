@@ -4,11 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.androidworks.nikhil.familytreeadmin.MainActivity">
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:conhint="com.androidworks.nikhil.familytreeadmin.ui.activities.MainActivity">
 
-    <TextView
+    <EditText
+        android:id="@+id/et_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-/>
+        android:layout_marginTop="10dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/et_nick_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nick Name" />
+
+
+    <EditText
+        android:id="@+id/et_birth_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Birth Year"
+        android:inputType="date"
+        />
+
+    <EditText
+        android:id="@+id/et_death"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Death Year"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/et_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="location" />
+
+    <EditText
+        android:id="@+id/et_generation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="generation"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/ck_is_dead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_marginTop="10dp"
+        android:hint="Is Dead" />
+
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Add" />
+
+
 </LinearLayout>
